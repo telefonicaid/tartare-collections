@@ -30,5 +30,9 @@
   "dependencies": {
     "request": "2.51.0",
     "tartare-util": "file:../tartare-util"
+  },
+  "devDependencies": {
+    "eslint": "^0.11.0",
+    "jscs": "^1.9.0"
   }
 }
