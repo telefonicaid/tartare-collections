@@ -26,5 +26,9 @@
     "HTTP",
     "REST",
     "collections"
-  ]
+  ],
+  "dependencies": {
+    "request": "2.51.0",
+    "tartare-util": "file:../tartare-util"
+  }
 }
