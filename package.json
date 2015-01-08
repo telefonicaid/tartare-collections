@@ -1,0 +1,30 @@
+{
+  "name": "tartare-collections",
+  "version": "0.4.0",
+  "description": "An HTTP client targeted at making REST requests ",
+  "license": "Apache-2.0",
+  "author": "Jose Antonio Rodríguez Fernández <joseantonio.rodriguezfernandez@telefonica.com>",
+  "main": "./index",
+  "scripts": {
+    "lint": "./node_modules/.bin/jscs index.js lib && ./node_modules/.bin/eslint index.js lib",
+    "prepublish": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telefonicaid/tartare-collections.git"
+  },
+  "bugs": "https://github.com/telefonicaid/tartare-collections/issues",
+  "engines": {
+    "node": ">=0.10",
+    "npm": ">=1.4.0"
+  },
+  "keywords": [
+    "testing",
+    "QA",
+    "acceptance",
+    "tools",
+    "HTTP",
+    "REST",
+    "collections"
+  ]
+}
